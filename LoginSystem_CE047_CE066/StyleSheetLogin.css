@@ -1,0 +1,70 @@
+*{
+    font-size: 2.5vh;
+}
+body{
+    /* text-align: center; */
+    height: fit-content;
+    width: fit-content;
+    text-overflow: wrap;
+    font-weight: 500;
+    border-radius: 2vh;
+    border: 0.5vh dashed skyblue;
+    margin-left: 53vh;
+    margin-top: 30vh;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    line-height: 2vh;
+    padding: 5vh;
+}
+input[type='email'],input[type='password'],input[type='text']{
+    background-color: white;
+    padding: 1vh;
+    font-size: 3vh;
+    margin: 1.3vh;
+    padding: 0.4vh;
+    border: none;
+    border-radius: 1vh;
+}
+input[type='email']:focus,input[type='password']:focus,input[type='text']:focus{
+    outline: none;
+}
+button,input[type='submit'],input[type='reset']{
+    margin: 0.7vh;
+    padding: 0.7vh;
+    border-radius: 0.6vh;
+    background-color: white;
+    border: none;
+}
+
+#show,#cshow{
+    background-color: transparent;
+    color: white;
+}
+button:hover,input[type='submit']:hover,input[type='reset']:hover{
+    font-weight: bolder;
+    background-color: skyblue;
+    cursor: pointer;
+}
+label{
+    clear: both;
+    background-color: black;
+    margin-left: 1vh;
+    font-size: larger;
+}
+textarea{
+    background-color: lightgreen;
+    border: none;
+    width:100vh;
+    height: 30vh;
+    padding: 2vh;
+    border-radius: 1.4vh;
+    font-weight: 900;
+}
+textarea:focus{
+    outline:none;
+}
+
+input[type='reset']:hover{
+    background-color:gold;
+}
